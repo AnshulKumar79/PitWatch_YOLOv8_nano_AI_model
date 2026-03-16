@@ -3,3 +3,8 @@ onnxruntime
 streamlit
 pillow
 numpy
+ultralytics
+onnxruntime
+opencv-python-headless
+pillow
+numpy
