@@ -12,7 +12,7 @@ st.write("Upload a road image to see the AI identify hazards in real-time.")
 #Loading our model
 @st.cache_resource
 def load_model():
-    model = YOLO("best.pt", task="detect")
+    model = YOLO("best_float32.tflite", task="detect")
     return model
 
 model = load_model()
