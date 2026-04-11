@@ -16,7 +16,9 @@ model = YOLO("best.onnx", task="detect")
 class ImageRequest(BaseModel):
     image_base64: str
     confidence_threshold: float = 0.25
-
+@app.get("/")
+async def health_check():
+    return {"status": "API is alive and kicking!"}
 # 4. API Endpoint banayein
 @app.post("/predict")
 async def predict_pothole(request: ImageRequest):
