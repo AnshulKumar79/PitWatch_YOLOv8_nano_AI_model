@@ -15,7 +15,7 @@ model = YOLO("best.onnx", task="detect")
 # 3. Input validation ke liye Pydantic Model (JSON structure define kar rahe hain)
 class ImageRequest(BaseModel):
     image_base64: str
-    confidence_threshold: float = 0.25
+    confidence_threshold: float = 0.20
 @app.get("/")
 async def health_check():
     return {"status": "API is alive and kicking!"}
