@@ -3,7 +3,7 @@
 **PitWatch** is an intelligent road safety solution developed for the **Innovate Bharat Hackathon 2026**. It leverages Computer Vision to detect road hazards—specifically potholes and waterlogging—to assist municipal authorities in proactive infrastructure maintenance.
 
 
-**[View the Live API](https://pitwatch-api.onrender.com/predict)**
+**[LIVE DEMO](https://anshulkumar24-pitwatch-ui.hf.space/)**
 
 --------------------------------------------------------------------------------------------------------------
 
